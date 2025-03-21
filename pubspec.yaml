@@ -1,0 +1,53 @@
+name: chatgo
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  iconsax_flutter: ^1.0.0
+  get: ^4.7.2
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  google_sign_in: ^6.3.0
+  image_picker: ^1.1.2
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  loading_animation_widget:
+  shared_preferences: ^2.5.2
+  lifecycle: ^0.9.0
+  intl: ^0.20.2
+  emoji_picker_flutter: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/logos/
+   - assets/images/
+   - assets/icons/
+
+  fonts:
+   - family: Caros
+     fonts:
+      - asset: assets/fonts/cretypeCaros.otf
+      - asset: assets/fonts/cretypeCarosMedium.otf
+        weight: 300
+      - asset: assets/fonts/cretypeCarosBold.otf
+        weight: 500
+      - asset: assets/fonts/cretypeCarosExtraBold.otf
+        weight: 700
+      - asset: assets/fonts/cretypeCarosHeavy.otf
+        weight: 900
+
+
