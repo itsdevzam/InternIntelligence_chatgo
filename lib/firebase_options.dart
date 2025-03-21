@@ -49,22 +49,22 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCCQrKHezO7sJyvnJbmZ6cp6GAkV-s5uW8',
-    appId: '1:1068007125864:android:ebb4718f17392cb64d5cdd',
-    messagingSenderId: '1068007125864',
-    projectId: 'fir-b2fbf',
-    databaseURL: 'https://fir-b2fbf-default-rtdb.firebaseio.com',
-    storageBucket: 'fir-b2fbf.firebasestorage.app',
-  );
+static const FirebaseOptions android = FirebaseOptions(
+  apiKey: '',
+  appId: '',
+  messagingSenderId: '',
+  projectId: '',
+  databaseURL: '',
+  storageBucket: '',
+);
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBQYyQLjUgAdX5GN7VZkaEwrcRLb65shCg',
-    appId: '1:1068007125864:ios:b5081c0b449d3f254d5cdd',
-    messagingSenderId: '1068007125864',
-    projectId: 'fir-b2fbf',
-    databaseURL: 'https://fir-b2fbf-default-rtdb.firebaseio.com',
-    storageBucket: 'fir-b2fbf.firebasestorage.app',
-    iosBundleId: 'com.devam.chatgo',
-  );
+static const FirebaseOptions ios = FirebaseOptions(
+  apiKey: '',
+  appId: '',
+  messagingSenderId: '',
+  projectId: '',
+  databaseURL: '',
+  storageBucket: '',
+  iosBundleId: '',
+);
 }
